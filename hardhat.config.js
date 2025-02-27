@@ -8,9 +8,8 @@ const SEPOLIA_URL = process.env.SEPOLIA_URL || "";
 const GOERLI_URL = process.env.GOERLI_URL || "";
 const PRIVATE_KEY = process.env.PRIVATE_KEY.length > 0 ? process.env.PRIVATE_KEY.split(',') : [];
 
-console.log(PRIVATE_KEY);
-console.log(PRIVATE_KEY.length);
-console.log(BCOSNET_URL);
+console.log("PRIVATE_KEY:", PRIVATE_KEY);
+console.log("BCOSNET_URL:", BCOSNET_URL);
 
 /** @type {import('hardhat/config').HardhatUserConfig} */
 const config = {
